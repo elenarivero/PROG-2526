@@ -17,7 +17,7 @@ public class Exercise01 {
 		System.out.println("Introduce the tax:");
 		tax = reader.nextInt();
 		
-		price = price * (1 + (double)tax/100);
+		price = price + price*tax/100; // price(1 + tax/100)
 		
 		System.out.println("The price with tax is " + price);
 		
