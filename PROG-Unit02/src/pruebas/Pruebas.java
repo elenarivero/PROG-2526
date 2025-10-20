@@ -3,17 +3,26 @@ package pruebas;
 public class Pruebas {
 
 	public static void main(String[] args) {
-		int x1 = -4;
-		int x2 = x1--;
-		int x3 = ++x2;
+		int mes = 62;
 
-		if (x2 > x3) {
-			--x3;
-		} else {
-			x1++;
+		int dias = switch (mes) {
+
+		case 1, 3, 5, 7, 8, 10, 12 -> {
+			yield 31;
 		}
-
-		System.out.println(x1 + x2 + x3);
+		case 2 -> {
+			yield 28;
+		}
+		case 4, 6, 9, 11 -> {
+			yield 30;
+		}
+		default -> {
+			System.out.println("Valor incorrecto");
+			yield -1;
+		}
+		}; // NO OLVIDAR ;
+		
+		System.out.println("Dias = " + dias);
 	}
 
 }
