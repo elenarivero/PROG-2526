@@ -27,6 +27,7 @@ public class Ejercicio03 {
 				letra = 'W';
 			case 3:
 				letra = 'A';
+				//... Faltan casos 
 			case 21:
 				letra = 'K';
 			default:
