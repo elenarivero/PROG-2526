@@ -7,28 +7,20 @@ public class Ejercicio07 {
 	public static void main(String[] args) {
 		// Creamos el scanner
 		Scanner reader = new Scanner(System.in);
-		
 		// Constante donde almacenar el precio por adulto
 		final double PRECIO_ADULTO = 20;
-		
 		// Constante donde almacenar el precio por entrada infantil
 		final double PRECIO_INFANTIL = 15.50;
-		
 		// Constante donde almacenar el límite a partir del cual realizar el descuento
 		final double LIMITE = 100;
-		
 		// Constante donde almacenar el descuento a aplicar
 		final double DESCUENTO = 0.95;
-		
 		// Variable donde almacenar el número de entradas infantiles
 		int entradasInfantiles;
-		
 		// Variable donde almacenar el número de entradas de adultos
 		int entradasAdultos;
-		
 		// Variable donde almacenar el precio sin descuento
 		double precio;
-		
 		// Variable donde almacenar el precio con el descuento aplicado
 		double precioDescuento;
 		
