@@ -14,7 +14,7 @@ public class Ejercicio01 {
 		int numero;
 
 		// Variable para comprobar si el número es capicúa
-		boolean esCapicua = false;
+		boolean esCapicua;
 
 		// Varibles para las cifras de un número
 		int unidades;

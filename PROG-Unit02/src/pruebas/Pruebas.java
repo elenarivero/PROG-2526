@@ -5,7 +5,7 @@ public class Pruebas {
 	public static void main(String[] args) {
 		int mes = 3;
 
-		int dias = switch (mes) {
+		int dias = switch (mes+1) {
 
 		case 1, 3, 5, 7, 8, 10, 12 : 
 			yield 31;
