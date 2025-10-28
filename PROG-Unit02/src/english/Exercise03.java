@@ -22,22 +22,24 @@ public class Exercise03 {
 		// Hour oclock
 		if (mirrorMinute == 0) {
 			realHour = 12 - mirrorHour;
-			realMinute = 0;
-
 		} else {
 			// Not hour oclock
 			realHour = 11 - mirrorHour;
-			realMinute = 60 - mirrorMinute;
 		}
 
+		realHour = (realHour==0) ? 12: realHour;
+		realMinute = (mirrorMinute == 0) ? 0 : (60 - mirrorMinute);
+		
 		if (realHour < 10) {
 			System.out.print("0");
 		}
+		
 		System.out.print(realHour + ":");
 
 		if (realMinute < 10) {
 			System.out.print("0");
 		}
+		
 		System.out.println(realMinute);
 
 		reader.close();
