@@ -3,6 +3,13 @@ package pruebas;
 public class Pruebas {
 
 	public static void main(String[] args) {
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
+		
+		double minD = Double.MAX_VALUE;
+		double maxD = Double.MIN_VALUE;
+		
+		
 		int mes = 3;
 
 		int dias = switch (mes+1) {
