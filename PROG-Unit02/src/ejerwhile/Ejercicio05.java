@@ -1,4 +1,4 @@
-package loops;
+package ejerwhile;
 
 import java.util.Scanner;
 
