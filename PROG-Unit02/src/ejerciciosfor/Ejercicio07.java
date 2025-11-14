@@ -42,12 +42,12 @@ public class Ejercicio07 {
 					cont++;
 				}
 			}
-
+			System.out.println(esPrimo ? "El número es primo" : "El número no es primo");
 		} else {
 			System.out.println("El valor introducido debe ser positivo");
 		}
 
-		System.out.println(esPrimo ? "El número es primo" : "El número no es primo");
+		
 		
 		// Cierre del scanner
 		reader.close();
