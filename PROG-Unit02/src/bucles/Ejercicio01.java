@@ -39,9 +39,7 @@ public class Ejercicio01 {
 		if (horas < 10) {
 			System.out.print("0");
 		}
-		
 		System.out.print(horas + ":");
-		
 		if (min < 10) {
 			System.out.print("0");
 		}
