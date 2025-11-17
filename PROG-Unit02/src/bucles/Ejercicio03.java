@@ -35,12 +35,12 @@ public class Ejercicio03 {
 
 		// Bucle for para recorrer desde el más pequeño de los dos números hasta 1,
 		// restando 1 en cada vuelta
-		for (int i = min; i >= 1; i--) {
-			// Comprobamos si i divide a ambos números
-			if (num1 % i == 0 && num2 % i == 0) {
-				mcd = i;
-			}
-		}
+//		for (int i = min; i >= 1; i--) {
+//			// Comprobamos si i divide a ambos números
+//			if (num1 % i == 0 && num2 % i == 0) {
+//				mcd = i;
+//			}
+//		}
 
 		// Inicializamos el divisor al mínimo de ambos números
 		divisor = min;
